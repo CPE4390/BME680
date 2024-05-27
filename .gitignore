@@ -1,0 +1,16 @@
+
+#MPLabX entries
+*.o
+*.elf
+*.map
+*.d
+*.bak
+**/nbproject/private
+**/nbproject/Makefile-*
+**/nbproject/Package-*
+**/debug
+**/dist
+**/build
+**/.generated_files
+**/release
+**/debug
