@@ -4,10 +4,13 @@
 #include "bme68x.h"
 #include "pic18_i2c.h"
 
-//RD5 = SDA
-//RD6 = SCL
+//SDA -> RD5
+//SCL -> RD6
+//CS -> 3.3V
+//SDO -> GND
+//VCC -> 3.3V
+//GND -> GND
 //pull-ups on board
-//Connect ground of PIC board to ground of measured power source.
 
 struct bme68x_dev bme;
 uint8_t dev_addr;
